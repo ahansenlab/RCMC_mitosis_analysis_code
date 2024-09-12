@@ -16,7 +16,6 @@ Required packages:
 Python script used to align reads in .fastq format from paired-end sequencing of Micro-C & RCMC experiments; produces as output .pairs, .cool and .mcool files compatible with downstream applications such as HiGlass. Sequencing data is aligned genome-wide, after which the unique pairs can be filtered (e.g., using pairtools select) to retain only the reads where both paired ends are within a captured ROI and then merged (e.g., using pairtools merge) to create ROI-only RCMC .pairs and .mcool files.
 
 Use "python /path/to/script/microcprocessing.py -h" to see a description of script functionality. Example usage:
-
 ```
 python /path/to/script/microcprocessing.py --file_1 pair1.fastq --file_2 pair2.fasq -g mm39 -a bwa -w expand -t 36 -o exampleoutput
 ```
@@ -72,7 +71,6 @@ Required packages:
 R script used to classify microcompartment interactions by finding overlap between identified microcompartments (.bedpe) and chromatin features (.bed) such as promoters, enhancers, CTCF binding sites, etc. It outputs individual .bedpe files of interactions according to combinatorial classification of chromatin features (e.g for enhancer (E) and promoter (P): P-P, E-E, E-P, E-null, P-null, null-null), including interactions which have no overlap (null category). Classification can be mutually exclusive (E-P cannot also be P-P) or inclusive.
 
 Example usage:
-
 ```
 Rscript /path/to/script/loopFeatureOverlap.R -l interactions.bedpe -b promoter.bed,enhancer.bed -i P,E -o outputdirectory/
 ```
@@ -109,9 +107,5 @@ Jupyter notebook used to calculate reproducibility scores for provided mcools. T
 
 ## How to cite
 This work is shared under an MIT license. If you make use of analysis scripts or data from this work, please cite as follows:
-
-Goel, V.Y., Huseyin, M.K. & Hansen, A.S. Region Capture Micro-C reveals coalescence of enhancers and promoters into nested microcompartments. *Nat Genet* (2023). https://doi.org/10.1038/s41588-023-01391-1
-
-Also refer to our deposited and citable code on Zenodo:
-
-Goel, Viraat Y, Huseyin, Miles K, & Hansen, Anders S. (2023). Code supporting Region Capture Micro-C reveals coalescence of enhancers and promoters into nested microcompartments (1.0). Zenodo. https://doi.org/10.5281/zenodo.7641852
+**Goel, V.Y., et al. Dynamics of microcompartment formation at the mitosis-to-G1 transition. *bioRxiv* (2024).**
+Please also refer to our polymer simulation code, also available on GitHub at https://github.com/mirnylab/microcompartments.
