@@ -108,4 +108,5 @@ Jupyter notebook used to calculate reproducibility scores for provided mcools. T
 ## How to cite
 This work is shared under an MIT license. If you make use of analysis scripts or data from this work, please cite as follows:
 **Goel, V.Y., et al. Dynamics of microcompartment formation at the mitosis-to-G1 transition. *bioRxiv* (2024).**
+
 Please also refer to our polymer simulation code, also available on GitHub at https://github.com/mirnylab/microcompartments.
