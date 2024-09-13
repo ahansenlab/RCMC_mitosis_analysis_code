@@ -31,7 +31,7 @@ Jupyter notebook used to generate visualizations of contact maps and genomics tr
 
 ### Lists of probes used for capturing regions of interest (MitosisRCMC_CaptureProbes_80mers_mm39.bed)
 
-BED format file listing the genomic locations of all probes used for capturing the Id1 (chr2), Klf1 (chr8), Cdt1 (chr8), Dag1 (chr9), and Myc (chr15) regions used in the RCMC experiments. Coordinates are provided for the mm39 reference genome. Columns in the file are as follows: the first is the chromosome the region is located on, the second is the start coordinate of the probe range, and the third is the end coordinate of the probe range, with probe ranges being in multiples of 80 representing one or more consecutive 80mer probes.
+BED format file listing the genomic locations of all probes used for capturing the _Id1_ (chr2), _Klf1_ (chr8), _Cdt1_ (chr8), _Dag1_ (chr9), and _Myc_ (chr15) regions used in the RCMC experiments. Coordinates are provided for the mm39 reference genome. Columns in the file are as follows: the first is the chromosome the region is located on, the second is the start coordinate of the probe range, and the third is the end coordinate of the probe range, with probe ranges being in multiples of 80 representing one or more consecutive 80mer probes.
 
 ### List of manually-annotated microcompartment loops (MitosisRCMC_LoopCalls_mm39.bed & MitosisRCMC_LoopCalls_PlusMin1kb_mm39.bedpe) and anchors (MitosisRCMC_AnchorCalls_PlusMin1kb_mm39.bed)
 
