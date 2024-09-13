@@ -48,13 +48,13 @@ Required packages:
 
 Jupyter notebook used to calculate the fraction of bins in .mcool-derived contact maps which contain at least one read pair at a given resolution and contact distance from the diagonal. The notebook takes an unbalanced .mcool of contacts from RCMC or a comparable method, tabulates the occupied contact bin fraction at specified contact distances, and generates a plot of occupied bin fraction by contact distance.
 
-### Generation of P(s) curves (Ps_CurveAnalysis.ipynb)
+### Generation of _P(s)_ curves (Ps_CurveAnalysis.ipynb)
 Required packages:
 -	cooltools
 -	cooler
 -	matplotlib
 
-Jupyter notebook used to calculate the P(s) curves for provided mcools. The notebook calculates interaction frequencies across contact distances, truncates calculated distances to match the size of RCMC regions, and plots both P(s) curves and derivative plots.
+Jupyter notebook used to calculate the _P(s)_ curves for provided mcools. The notebook calculates interaction frequencies across contact distances, truncates calculated distances to match the size of RCMC regions, and plots both _P(s)_ curves and derivative plots.
 
 ### Finding chromatin features overlapping microcompartment anchors (loopFeatureOverlap.R)
 Required packages:
